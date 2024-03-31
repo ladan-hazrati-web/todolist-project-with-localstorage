@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="assets/style/master.css" />
+    <!-- <link rel="stylesheet" href="assets/style/responsive.css"> -->
+  </head>
+  <body>
+    <main>
+      <div id="header">
+        <h1>Todo App</h1>
+        <section>
+          <input type="text" placeholder="Add todo..." id="inputTodoName" />
+          <input type="date" id="inputTodoDate"/>
+          <button id="addBtn">Add</button>
+          <button id="editBtnApply">Edit</button>
+        </section>
+        <section>
+          <div>
+            <button class="btn">All</button>
+            <button class="btn">Pending</button>
+            <button class="btn">Completed</button>
+          </div>
+          <button id="deleteAllBtn">Delete All</button>
+        </section>
+      </div>
+      <div id="messageContainer">
+       <p id="message"></p>
+      </div>
+      <div id="info">
+        <table>
+            <thead>
+              <tr>
+                <th>Task</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+           
+            </tbody>
+          </table>
+      </div>
+    </main>
+  </body>
+  <script src="assets/js/app.js"></script>
+</html>
